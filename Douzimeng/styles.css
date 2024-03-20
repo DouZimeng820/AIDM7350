@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100vh;
+}
+
+header, nav, section, footer {
+    padding: 20px;
+}
+
+header {
+    background: #ffb6c1;
+    color: #fff;
+    text-align: center;
+}
+
+nav {
+    background: #ffb6c1;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    background: #fce9ea; /* Lighter pink color */
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #ffb6c1;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: -100px; 
+    width: 100%;
+}
+
+.profile-picture {
+    max-width: 150px;
+    max-height: 150px;
+}
